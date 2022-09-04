@@ -2,8 +2,18 @@ import java.util.Arrays;
 
 public class VarArgs {
     public static void main(String[] args) {
-        fun(2, 3, 4, 5, 6, 75, 67, 43, 23);
-        multiple(2, 3, "Pushkar", "Rahul", "John");
+//        fun(2, 3, 4, 5, 6, 75, 67, 43, 23);
+//        multiple(2, 3, "Pushkar", "Rahul", "John");
+//        demo(); // Error: Abiguity
+
+    }
+
+    static void demo(int ...v) {
+        System.out.println(Arrays.toString(v));
+    }
+
+    static void demo(String ...v) {
+        System.out.println(Arrays.toString(v));
     }
 
     static void multiple(int a, int b, String ...v) {
