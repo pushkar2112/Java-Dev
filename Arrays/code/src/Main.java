@@ -27,7 +27,6 @@ public class Main {
 //        String str = null; // null is the default value of reference variables
 //        int num = null; // Error : cannot assign to primitives
 
-         
 
 
     }
